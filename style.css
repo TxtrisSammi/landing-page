@@ -15,6 +15,7 @@
 
 .hero-box img {
     width: 250px;
+    border-radius: 6px;
 }
 
 .info-box {
@@ -91,4 +92,83 @@ h2 {
 .hero-text p {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.quote-box {
+    height: 300px;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 30%;
+    padding-right: 30%;
+    
+}
+
+.quote-box #quote-text {
+    font-family: "Roboto", sans-serif;
+    color:#6B7280;
+    font-size: 25px;
+    text-align: left;
+}
+
+.quote-box #quote-author {
+    font-family: "Roboto", sans-serif;
+    color:#1F2937;
+    font-size: 15px;
+    font-weight: 600;
+    align-self: flex-end;
+}
+
+.spacer {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.blue-box {
+    background-color: #3B82F6;
+    display: flex;
+    height: 125px;
+    width: 1225px;
+    border-radius: 5px;
+    justify-content: space-evenly;
+}
+
+.blue-box button {
+    width: 125px;
+    height: 35px;
+    border: white 2px solid;
+    background-color: #3B82F6;
+    color: white;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    align-self: center;
+
+}
+.blue-box p {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-size: 20px;
+    text-align: left;
+}
+
+.blue-box h2 {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-size: 25px;
+    text-align: left;
+}
+
+footer {
+    background-color: #1F2937;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FaF8;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
 }
