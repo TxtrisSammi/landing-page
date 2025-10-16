@@ -17,6 +17,53 @@
     width: 250px;
 }
 
+.info-box {
+    display: flex;
+    height: 300px;
+    gap: 1%;
+    background-color: #F9FaF8;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card p {
+    font-family: "Roboto", sans-serif;
+    color: #6B7280;
+    font-size: 16px;
+    max-width: 150px;
+}
+
+.card {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.icon {
+    background-color: #E5E7EB;
+    border: #3B82F6 2px solid;
+    border-radius: 12px;
+    width: 150px;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: 700;
+}
+
+h2 {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    margin-top: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
 .hero-text {
     display: flex;
     flex-direction: column;
