@@ -18,7 +18,8 @@ This is a landing page created for Proffesor Reed's Web Programming class, using
 
 ## Future Improvements
 
-- Adjust the HTML and CSS for compatibility across devices
+- Make Responive
+  - Mobile friendly
 
 ## Live Demo
 
