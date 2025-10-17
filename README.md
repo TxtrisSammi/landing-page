@@ -1,4 +1,4 @@
-# Capybara Themed Landing page!
+# Capybara Themed Landing page
 
 ## Description
 
