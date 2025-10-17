@@ -2,6 +2,40 @@
     margin: 0;
 }
 
+nav {
+    height: 60px;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 125px;
+}
+
+.header-logo {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.header-links {
+    display: flex;
+    gap: 40px;
+}
+
+.header-links a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.header-links a:hover {
+    color: #3B82F6;
+    transition: cubic-bezier(0.4, 0, 0.2, 1) 0.3s;
+    /* transition: 0.3s; */
+}
+
+
 .hero-box {
     display: flex;
     height: 400px;
@@ -25,7 +59,13 @@
     background-color: #F9FaF8;
     margin-top: 20px;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+}
+
+#tiny-text {
+    font-size: 12px;
+    color: #9CA3AF;
+    margin-top: -10px;
 }
 
 .card p {
@@ -56,6 +96,10 @@
     font-size: 24px;
     color: #1F2937;
     font-weight: 700;
+}
+
+.icon img {
+    border-radius: 10px;
 }
 
 h2 {
@@ -103,6 +147,7 @@ h2 {
     justify-content: center;
     padding-left: 30%;
     padding-right: 30%;
+    gap: 15px;
     
 }
 
